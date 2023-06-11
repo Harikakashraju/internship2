@@ -2,15 +2,16 @@
     width: 200px;
     height: 300px;
     background-color:blueviolet;
-    border: 2px solid #999;
+    border: 2px solid purple;
     padding: 10px;
     display: inline-block;
     vertical-align: top;
+    margin-left: 30px;
   }
   
   .item {
     background-color: #f1f1f1;
-    border: 1px solid #ccc;
+    border: 1px solid  pink;
     padding: 5px;
     margin-bottom: 5px;
     cursor: move;
@@ -20,6 +21,8 @@
     background-color: green;
     color: aliceblue;
     border: none;
+    font-size: 25px;
+    margin-left: 30px;
   }
   .item.dragging {
     opacity: 0.5;
